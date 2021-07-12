@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279BC096269C7E2800E35718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC095269C7E2800E35718 /* AppDelegate.swift */; };
+		279BC098269C7E2800E35718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC097269C7E2800E35718 /* SceneDelegate.swift */; };
+		279BC09A269C7E2800E35718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC099269C7E2800E35718 /* ViewController.swift */; };
+		279BC09D269C7E2800E35718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BC09B269C7E2800E35718 /* Main.storyboard */; };
+		279BC09F269C7E2800E35718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BC09E269C7E2800E35718 /* Assets.xcassets */; };
+		279BC0A2269C7E2800E35718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BC0A0269C7E2800E35718 /* LaunchScreen.storyboard */; };
+		279BC0AD269C7E2800E35718 /* KaldtimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC0AC269C7E2800E35718 /* KaldtimerTests.swift */; };
+		279BC0B8269C7E2800E35718 /* KaldtimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC0B7269C7E2800E35718 /* KaldtimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279BC0A9269C7E2800E35718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279BC08A269C7E2700E35718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279BC091269C7E2700E35718;
+			remoteInfo = Kaldtimer;
+		};
+		279BC0B4269C7E2800E35718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279BC08A269C7E2700E35718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279BC091269C7E2700E35718;
+			remoteInfo = Kaldtimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279BC092269C7E2800E35718 /* Kaldtimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaldtimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279BC095269C7E2800E35718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		279BC097269C7E2800E35718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		279BC099269C7E2800E35718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		279BC09C269C7E2800E35718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279BC09E269C7E2800E35718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279BC0A1269C7E2800E35718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		279BC0A3269C7E2800E35718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279BC0A8269C7E2800E35718 /* KaldtimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaldtimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279BC0AC269C7E2800E35718 /* KaldtimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaldtimerTests.swift; sourceTree = "<group>"; };
+		279BC0AE269C7E2800E35718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279BC0B3269C7E2800E35718 /* KaldtimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaldtimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279BC0B7269C7E2800E35718 /* KaldtimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaldtimerUITests.swift; sourceTree = "<group>"; };
+		279BC0B9269C7E2800E35718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279BC08F269C7E2700E35718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BC0A5269C7E2800E35718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BC0B0269C7E2800E35718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279BC089269C7E2700E35718 = {
+			isa = PBXGroup;
+			children = (
+				279BC094269C7E2800E35718 /* Kaldtimer */,
+				279BC0AB269C7E2800E35718 /* KaldtimerTests */,
+				279BC0B6269C7E2800E35718 /* KaldtimerUITests */,
+				279BC093269C7E2800E35718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279BC093269C7E2800E35718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279BC092269C7E2800E35718 /* Kaldtimer.app */,
+				279BC0A8269C7E2800E35718 /* KaldtimerTests.xctest */,
+				279BC0B3269C7E2800E35718 /* KaldtimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279BC094269C7E2800E35718 /* Kaldtimer */ = {
+			isa = PBXGroup;
+			children = (
+				279BC095269C7E2800E35718 /* AppDelegate.swift */,
+				279BC097269C7E2800E35718 /* SceneDelegate.swift */,
+				279BC099269C7E2800E35718 /* ViewController.swift */,
+				279BC09B269C7E2800E35718 /* Main.storyboard */,
+				279BC09E269C7E2800E35718 /* Assets.xcassets */,
+				279BC0A0269C7E2800E35718 /* LaunchScreen.storyboard */,
+				279BC0A3269C7E2800E35718 /* Info.plist */,
+			);
+			path = Kaldtimer;
+			sourceTree = "<group>";
+		};
+		279BC0AB269C7E2800E35718 /* KaldtimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				279BC0AC269C7E2800E35718 /* KaldtimerTests.swift */,
+				279BC0AE269C7E2800E35718 /* Info.plist */,
+			);
+			path = KaldtimerTests;
+			sourceTree = "<group>";
+		};
+		279BC0B6269C7E2800E35718 /* KaldtimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				279BC0B7269C7E2800E35718 /* KaldtimerUITests.swift */,
+				279BC0B9269C7E2800E35718 /* Info.plist */,
+			);
+			path = KaldtimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279BC091269C7E2700E35718 /* Kaldtimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279BC0BC269C7E2800E35718 /* Build configuration list for PBXNativeTarget "Kaldtimer" */;
+			buildPhases = (
+				279BC08E269C7E2700E35718 /* Sources */,
+				279BC08F269C7E2700E35718 /* Frameworks */,
+				279BC090269C7E2700E35718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaldtimer;
+			productName = Kaldtimer;
+			productReference = 279BC092269C7E2800E35718 /* Kaldtimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279BC0A7269C7E2800E35718 /* KaldtimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279BC0BF269C7E2800E35718 /* Build configuration list for PBXNativeTarget "KaldtimerTests" */;
+			buildPhases = (
+				279BC0A4269C7E2800E35718 /* Sources */,
+				279BC0A5269C7E2800E35718 /* Frameworks */,
+				279BC0A6269C7E2800E35718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279BC0AA269C7E2800E35718 /* PBXTargetDependency */,
+			);
+			name = KaldtimerTests;
+			productName = KaldtimerTests;
+			productReference = 279BC0A8269C7E2800E35718 /* KaldtimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		279BC0B2269C7E2800E35718 /* KaldtimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279BC0C2269C7E2800E35718 /* Build configuration list for PBXNativeTarget "KaldtimerUITests" */;
+			buildPhases = (
+				279BC0AF269C7E2800E35718 /* Sources */,
+				279BC0B0269C7E2800E35718 /* Frameworks */,
+				279BC0B1269C7E2800E35718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279BC0B5269C7E2800E35718 /* PBXTargetDependency */,
+			);
+			name = KaldtimerUITests;
+			productName = KaldtimerUITests;
+			productReference = 279BC0B3269C7E2800E35718 /* KaldtimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279BC08A269C7E2700E35718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					279BC091269C7E2700E35718 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					279BC0A7269C7E2800E35718 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 279BC091269C7E2700E35718;
+					};
+					279BC0B2269C7E2800E35718 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 279BC091269C7E2700E35718;
+					};
+				};
+			};
+			buildConfigurationList = 279BC08D269C7E2700E35718 /* Build configuration list for PBXProject "Kaldtimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 279BC089269C7E2700E35718;
+			productRefGroup = 279BC093269C7E2800E35718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279BC091269C7E2700E35718 /* Kaldtimer */,
+				279BC0A7269C7E2800E35718 /* KaldtimerTests */,
+				279BC0B2269C7E2800E35718 /* KaldtimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279BC090269C7E2700E35718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BC0A2269C7E2800E35718 /* LaunchScreen.storyboard in Resources */,
+				279BC09F269C7E2800E35718 /* Assets.xcassets in Resources */,
+				279BC09D269C7E2800E35718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BC0A6269C7E2800E35718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BC0B1269C7E2800E35718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279BC08E269C7E2700E35718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BC09A269C7E2800E35718 /* ViewController.swift in Sources */,
+				279BC096269C7E2800E35718 /* AppDelegate.swift in Sources */,
+				279BC098269C7E2800E35718 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BC0A4269C7E2800E35718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BC0AD269C7E2800E35718 /* KaldtimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BC0AF269C7E2800E35718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BC0B8269C7E2800E35718 /* KaldtimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279BC0AA269C7E2800E35718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279BC091269C7E2700E35718 /* Kaldtimer */;
+			targetProxy = 279BC0A9269C7E2800E35718 /* PBXContainerItemProxy */;
+		};
+		279BC0B5269C7E2800E35718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279BC091269C7E2700E35718 /* Kaldtimer */;
+			targetProxy = 279BC0B4269C7E2800E35718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279BC09B269C7E2800E35718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279BC09C269C7E2800E35718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279BC0A0269C7E2800E35718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279BC0A1269C7E2800E35718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279BC0BA269C7E2800E35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		279BC0BB269C7E2800E35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279BC0BD269C7E2800E35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				INFOPLIST_FILE = Kaldtimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.Kaldtimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279BC0BE269C7E2800E35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				INFOPLIST_FILE = Kaldtimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.Kaldtimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		279BC0C0269C7E2800E35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				INFOPLIST_FILE = KaldtimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.KaldtimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaldtimer.app/Kaldtimer";
+			};
+			name = Debug;
+		};
+		279BC0C1269C7E2800E35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				INFOPLIST_FILE = KaldtimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.KaldtimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaldtimer.app/Kaldtimer";
+			};
+			name = Release;
+		};
+		279BC0C3269C7E2800E35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				INFOPLIST_FILE = KaldtimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.KaldtimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaldtimer;
+			};
+			name = Debug;
+		};
+		279BC0C4269C7E2800E35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				INFOPLIST_FILE = KaldtimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.KaldtimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaldtimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279BC08D269C7E2700E35718 /* Build configuration list for PBXProject "Kaldtimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BC0BA269C7E2800E35718 /* Debug */,
+				279BC0BB269C7E2800E35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279BC0BC269C7E2800E35718 /* Build configuration list for PBXNativeTarget "Kaldtimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BC0BD269C7E2800E35718 /* Debug */,
+				279BC0BE269C7E2800E35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279BC0BF269C7E2800E35718 /* Build configuration list for PBXNativeTarget "KaldtimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BC0C0269C7E2800E35718 /* Debug */,
+				279BC0C1269C7E2800E35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279BC0C2269C7E2800E35718 /* Build configuration list for PBXNativeTarget "KaldtimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BC0C3269C7E2800E35718 /* Debug */,
+				279BC0C4269C7E2800E35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279BC08A269C7E2700E35718 /* Project object */;
+}
