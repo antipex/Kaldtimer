@@ -15,6 +15,8 @@
 		279BC0A2269C7E2800E35718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BC0A0269C7E2800E35718 /* LaunchScreen.storyboard */; };
 		279BC0AD269C7E2800E35718 /* KaldtimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC0AC269C7E2800E35718 /* KaldtimerTests.swift */; };
 		279BC0B8269C7E2800E35718 /* KaldtimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC0B7269C7E2800E35718 /* KaldtimerUITests.swift */; };
+		279BC0C6269C7FAE00E35718 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC0C5269C7FAE00E35718 /* RoundButton.swift */; };
+		279BC0C8269C845E00E35718 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BC0C7269C845E00E35718 /* TimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		279BC0B3269C7E2800E35718 /* KaldtimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaldtimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279BC0B7269C7E2800E35718 /* KaldtimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaldtimerUITests.swift; sourceTree = "<group>"; };
 		279BC0B9269C7E2800E35718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279BC0C5269C7FAE00E35718 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		279BC0C7269C845E00E35718 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				279BC09E269C7E2800E35718 /* Assets.xcassets */,
 				279BC0A0269C7E2800E35718 /* LaunchScreen.storyboard */,
 				279BC0A3269C7E2800E35718 /* Info.plist */,
+				279BC0C5269C7FAE00E35718 /* RoundButton.swift */,
+				279BC0C7269C845E00E35718 /* TimerViewModel.swift */,
 			);
 			path = Kaldtimer;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279BC0C8269C845E00E35718 /* TimerViewModel.swift in Sources */,
+				279BC0C6269C7FAE00E35718 /* RoundButton.swift in Sources */,
 				279BC09A269C7E2800E35718 /* ViewController.swift in Sources */,
 				279BC096269C7E2800E35718 /* AppDelegate.swift in Sources */,
 				279BC098269C7E2800E35718 /* SceneDelegate.swift in Sources */,
